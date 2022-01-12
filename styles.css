@@ -33,9 +33,10 @@ footer {
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: url("/AppliedRPA-repo/images/robotic-process-automation-banner-top.jpg");
-  
-  width: 100%;
+
+  width: 100vw;
   aspect-ratio: 900/400;
+  min-height: 70vh;
   /* 2. Position and center the image to scale nicely on all screens. */
   background-position: top;
   background-size: cover;
@@ -45,12 +46,30 @@ footer {
 .heading {
   font-size: 2.5rem;
   font-weight: 700;
-  color:rgb(229, 229, 238)
+  color: rgb(229, 229, 238);
 }
 .tagline {
   font-size: 2rem;
   font-weight: 500;
-  /* color: rgb(16, 222, 230); */
-  color: rgb(93, 93, 204)
+  color: rgb(229, 229, 238);
   font-family: "Playfair Display";
+}
+.rpa-definition {
+  justify-content: center;
+  border-radius: 1em;
+  /* border:1px solid cornflowerblue; */
+  box-shadow: 5px 5px 5px rgb(138, 168, 223);
+  
+}
+.rpa-definition-img {
+  max-width: 80%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 1s ease;
+  overflow: hidden;
+}
+.rpa-definition-img:hover {
+  cursor: pointer;
+  filter: brightness(0.6);
+  transform: scale(1.1);
 }
