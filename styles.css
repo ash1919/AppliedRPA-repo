@@ -36,7 +36,7 @@ footer {
 
   width: 100vw;
   aspect-ratio: 900/400;
-  min-height: 70vh;
+  min-height: 60vh;
   /* 2. Position and center the image to scale nicely on all screens. */
   background-position: top;
   background-size: cover;
@@ -59,7 +59,14 @@ footer {
   border-radius: 1em;
   /* border:1px solid cornflowerblue; */
   box-shadow: 5px 5px 5px rgb(138, 168, 223);
-  
+  text-align: justify;
+}
+.rpa-definition:hover {
+  border: 2px solid rgb(153, 44, 241);
+}
+.rpa-definition h3 {
+  color: rgb(0, 119, 255);
+  font-weight: 600;
 }
 .rpa-definition-img {
   max-width: 80%;
@@ -70,6 +77,38 @@ footer {
 }
 .rpa-definition-img:hover {
   cursor: pointer;
+
   filter: brightness(0.6);
   transform: scale(1.1);
+}
+.body-rpa-benifits{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.8rem;
+  color: darkcyan;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.description-1 img {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  max-width: 5rem;
+  min-height: 5rem;
+}
+.description-2 img {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  max-width: 5rem;
+  min-height: 5rem;
+}
+.description-3 img {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  max-width: 5rem;
+  min-height: 5rem;
+}
+.description-4 img {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  max-width: 5rem;
+  min-height: 5rem;
 }
