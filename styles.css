@@ -9,6 +9,8 @@ body {
 body {
   overflow-y: auto;
   min-height: 100vh;
+  background-image: url(/AppliedRPA-repo/images/blob-scatter-haikei.svg);
+  /* background-repeat: no-repeat; */
 }
 textarea:focus,
 input:focus {
@@ -56,15 +58,23 @@ footer {
 }
 .rpa-definition {
   justify-content: center;
+  align-items: center;
   border-radius: 1em;
   /* border:1px solid cornflowerblue; */
   box-shadow: 5px 5px 5px rgb(138, 168, 223);
   text-align: justify;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  width: 95%;
+}
+.rpa-definition{
+  border: 1px solid rgb(207, 202, 202);
 }
 .rpa-definition:hover {
   border: 2px solid rgb(153, 44, 241);
 }
-.rpa-definition h3 {
+.rpa-definition-text h3 {
+  margin-top: 1rem;
   color: rgb(0, 119, 255);
   font-weight: 600;
 }
@@ -74,6 +84,8 @@ footer {
   object-fit: cover;
   transition: all 1s ease;
   overflow: hidden;
+  margin-top: 1rem;
+  margin-left: 2rem;
 }
 .rpa-definition-img:hover {
   cursor: pointer;
@@ -81,20 +93,82 @@ footer {
   filter: brightness(0.6);
   transform: scale(1.1);
 }
-.body-rpa-benifits{
+@media only screen and (min-width: 770px) {
+  .rpa-definition-img {
+    margin-top: 6rem;
+    margin-left: 1rem;
+    object-fit: cover;
+  }
+  .rpa-definition-text {
+    margin-left: -2rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .rpa-definition-img {
+    margin-top: 2.5rem;
+    margin-left: 1.5rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .rpa-definition-text {
+    margin-left: -2rem;
+    width: 100%;
+    height: 100%;
+  }
+.body-rpa-benifits {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2.8rem;
-  color:black;
+  color: black;
   font-weight: 600;
 }
 
-.robo-img::after{
+.robo-img::after {
   content: "";
   display: block;
   background-color: turquoise;
   height: 3px;
   width: 4rem;
   margin: 0.4em auto 0.5em;
+}
+.description-1{
+  opacity: 0.9;
+  filter: drop-shadow(2px 2px 5px rgba(104, 35, 168, 0.5));
+}
+.description-1:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 1s ease;
+  overflow: hidden; 
+}
+.description-2{
+  opacity: 0.9;
+  filter: drop-shadow(2px 2px 5px rgba(104, 35, 168, 0.5));
+}
+.description-2:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 1s ease;
+  overflow: hidden; 
+}
+.description-3{
+  opacity: 0.9;
+  filter: drop-shadow(2px 2px 5px rgba(104, 35, 168, 0.5));
+}
+.description-3:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 1s ease;
+  overflow: hidden; 
+}
+.description-4{
+  opacity: 0.9;
+  filter: drop-shadow(2px 2px 5px rgba(104, 35, 168, 0.5));
+}
+.description-4:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 1s ease;
+  overflow: hidden; 
 }
 .description-1 img {
   margin-left: 1rem;
@@ -122,5 +196,5 @@ footer {
   margin-top: 1rem;
   max-width: 5rem;
   min-height: 5rem;
-  text-align: justify;
+   text-align: justify;
 }
