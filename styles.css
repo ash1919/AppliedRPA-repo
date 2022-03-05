@@ -7,13 +7,10 @@
   margin: 0;
 }
 body {
-  background-color: #e8f7f4;;
+  background-color: #e8f7f4;
   font-family: "Work Sans";
 }
-textarea:focus,
-input:focus {
-  outline: none;
-}
+
 a {
   text-decoration: none !important;
 }
@@ -64,6 +61,12 @@ img {
 .padding-div {
   padding-top: 5rem;
 }
+.heading-decoration {
+  padding-bottom: 3rem;
+  font-family: "Work Sans";
+  color: var(--primary-color);
+  font-size: 2.5rem;
+}
 
 /* Navbar */
 .navbar-brand img {
@@ -73,43 +76,47 @@ img {
 /* .navbar-nav .nav-link{
   font-size: 0.8rem;
 } */
-.hero-image {
+/* Her */
+.appliedrpa-hero {
   background-image: url("/images/robotic-process-automation-banner-top.jpg");
-  width: 100vw;
-  aspect-ratio: 900/400;
-  min-height: 60vh;
+  min-height: 80vh;
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.heading {
-  font-size: 2.5rem;
+.appliedrpa-hero-header h1 {
+  font-size: 2.8rem;
+  font-family: "Inter";
   font-weight: 700;
-  color: rgb(229, 229, 238);
+  background: -webkit-linear-gradient(#6cf54a, #f2f48f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.tagline {
-  font-size: 2rem;
-  font-weight: 500;
+
+.appliedrpa-hero-header .tagline {
+  font-size: 1.5rem;
+  font-weight: 600;
   color: rgb(229, 229, 238);
   font-family: "Playfair Display";
 }
-.rpa-definition {
-  justify-content: center;
-  align-items: center;
+.appliedrpa-hero-img{
+  width: 12rem;
+}
+
+.rpa-definition{
+  background-color: #dff9ff;
   border-radius: 1em;
-  /* border:1px solid cornflowerblue; */
-  box-shadow: 5px 5px 5px rgb(138, 168, 223);
+  box-shadow: 0px 0px 6px rgba(156, 184, 255, 0.48);
   text-align: justify;
   padding-right: 2rem;
   padding-left: 2rem;
-  width: 95%;
+  /* width: 95%; */
 }
 .rpa-definition {
   border: 1px solid rgb(207, 202, 202);
 }
 .rpa-definition:hover {
-  border: 2px solid rgb(153, 44, 241);
+  border: 2px solid #41a2b7;
 }
 .rpa-definition-text h3 {
   margin-top: 1rem;
@@ -142,7 +149,6 @@ footer {
   text-align: center;
 }
 /* Responsiviness */
-
 
 @media only screen and (max-width: 992px) {
   .rpa-definition-img {
@@ -250,8 +256,8 @@ footer {
     margin-left: -2rem;
   }
 }
-@media only screen and (max-width: 400px){
-  .navbar-brand img{
+@media only screen and (max-width: 400px) {
+  .navbar-brand img {
     width: 12rem;
   }
 }
