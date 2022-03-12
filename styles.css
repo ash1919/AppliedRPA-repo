@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@400;500;700&display=swap");
 
+:root{
+  --primary-color:#233c7b;
+}
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 body {
-  background-color: #e8f7f4;
+  background-color: #ecf6f8;
   font-family: "Work Sans";
 }
 
@@ -52,8 +55,7 @@ h6 {
 p {
   font-size: 1.1rem;
   margin: 10px 0;
-  color:  #2F2F2F;
-  ;
+  color: #2f2f2f;
 }
 
 img {
@@ -63,13 +65,13 @@ img {
 .margin-div {
   margin-top: 5rem;
 }
-.padding-div{
+.padding-div {
   padding-top: 5rem;
 }
 .heading-decoration {
   padding-bottom: 3rem;
   font-family: "Work Sans";
-  color: #233C7B;
+  color: #233c7b;
   font-size: 2.8rem;
 }
 
@@ -81,7 +83,9 @@ img {
 /* .navbar-nav .nav-link{
   font-size: 0.8rem;
 } */
-/* Her */
+
+/* Hero */
+
 .appliedrpa-hero {
   background-image: url("/images/robotic-process-automation-banner-top.jpg");
   min-height: 80vh;
@@ -118,8 +122,37 @@ img {
   border-radius: 2rem;
   /* background-color: #DFF9FF; */
 }
-.rpa-definition h2:first-child{
-  padding-bottom: 0rem!important;
+.rpa-definition h2:first-child {
+  padding-bottom: 0rem !important;
+}
+
+/* Why rpa */
+
+.why-rpa {
+  background-color: #dff9ff;
+  background-image: url(/images/Ellipse\ 5.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding: 1rem;
+}
+.why-rpa-left img{
+  width: auto;
+  /* margin: auto !important; */
+}
+.why-rpa-right .card {
+  border-radius: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #7ce6ff;
+}
+.why-rpa-right .card:hover{
+  box-shadow: -2px -4px 22px #B5F1FF;
+}
+.why-rpa-right img {
+  width: 5.5rem;
+  padding: 0.8rem;
+}
+.why-rpa-right .card-title{
+  color: var(--primary-color);
 }
 /* Footer */
 footer {
@@ -131,6 +164,7 @@ footer {
   margin-top: 40px;
   text-align: center;
 }
+
 /* Responsiviness */
 
 @media only screen and (max-width: 992px) {
