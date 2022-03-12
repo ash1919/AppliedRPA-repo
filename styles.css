@@ -154,6 +154,16 @@ img {
 .why-rpa-right .card-title{
   color: var(--primary-color);
 }
+/* RPA process */
+.rpa-process-accordion .accordion-button{
+  background-color: #dff9ff;
+  font-size: 1.5rem;
+  border: 2px solid #B5F1FF;
+}
+.rpa-process-accordion .accordion-item{
+  margin-bottom: 2rem;
+  border: none;
+}
 /* Footer */
 footer {
   background: #f1f1f1;
