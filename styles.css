@@ -90,11 +90,13 @@ img {
 /* Hero */
 
 .appliedrpa-hero {
-  background-image: url("/images/robotic-process-automation-banner-top.jpg");
-  min-height: 80vh;
+  /* background-image: url("/images/robotic-process-automation-banner-top.jpg");
   background-position: top;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background: linear-gradient(90deg, rgba(85,147,236,1) 73%, rgba(227,174,238,1) 100%);
+  min-height: 80vh;
+  position: relative;
 }
 .appliedrpa-hero-header h1 {
   font-size: 3.8rem;
@@ -114,6 +116,7 @@ img {
 .appliedrpa-hero-img {
   width: 12rem;
 }
+
 
 /* RPA defintion */
 
