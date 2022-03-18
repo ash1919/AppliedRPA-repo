@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@400;500;700&display=swap");
 
 :root {
-  --primary-color: #3510C8AB;
-  --secondary-color:#3510C8CC;
+  --primary-color: #3510c8ab;
+  --secondary-color: #3510c8cc;
 }
 * {
   box-sizing: border-box;
@@ -195,7 +195,7 @@ img {
   color: var(--primary-color);
 }
 /* RPA process */
-.rpa-process-accordion{
+.rpa-process-accordion {
   padding-bottom: 5rem;
 }
 .rpa-process-accordion .accordion-button {
@@ -216,35 +216,44 @@ img {
   color: white;
 }
 /* rpa-process explanation */
-.process-exp{
-  background-color:  #C8D5FE;
+.process-exp {
+  background-color: #c8d5fe;
   background-image: url(./images/sleeping-robo-removebg-preview.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 20%;
   padding-bottom: 8rem;
 }
-.process-exp .card{
-border: 1px solid #9b51e0;
-box-shadow: 0px 0.34066px 12.1099px 2.50549px rgb(155,81,224);
+.process-exp .card {
+  border: 1px solid #9b51e0;
+  box-shadow: 0px 0.34066px 12.1099px 2.50549px rgb(155, 81, 224);
 }
 /* Caraosel services */
-.our-services{
+.our-services {
   background-image: url(./images/robo-peeking.png);
   background-repeat: no-repeat;
   background-position: top 10% left;
-  background-size: 20%;
+  background-size: 15%;
 }
-.our-services .carousel{
-padding: 8rem;
+.our-services .carousel {
+  width: 50%;
+  margin: auto;
 }
-
+/* contact us */
+.contactus{
+  padding-bottom: 5rem;
+}
+.contactus-left {
+  border: 1px solid #9b51e0;
+  box-shadow: 0px 0.34066px 5.1099px 2.50549px rgb(155, 81, 224);
+  border-radius: 2rem;
+}
 /* Footer */
 footer {
-  background: #f1f1f1;
+  background: var(--primary-color);
+  color: white;
   width: 100%;
   padding: 16px 0px;
-  color: #999;
   vertical-align: bottom;
   margin-top: 40px;
   text-align: center;
@@ -279,7 +288,6 @@ footer {
     width: 4rem;
     margin: 0.4em auto 0.5em;
   }
-  
 }
 @media only screen and (max-width: 770px) {
   .rpa-definition-img {
