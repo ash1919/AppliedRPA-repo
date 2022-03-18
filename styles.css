@@ -94,10 +94,11 @@ img {
   background-size: cover;
   background-repeat: no-repeat; */
   background: linear-gradient(
-    90deg,
+    180deg,
     rgba(85, 147, 236, 1) 73%,
     rgba(227, 174, 238, 1) 100%
   );
+  /* background: linear-gradient(180deg, #3532BF 0%, rgba(53, 50, 191, 0) 143.09%); */
   min-height: 80vh;
   position: relative;
 }
@@ -105,11 +106,8 @@ img {
   font-size: 3.8rem;
   font-family: "Inter";
   font-weight: 700;
-  background: -webkit-linear-gradient(rgb(0, 255, 102), #f2f48f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
 }
-
 .appliedrpa-hero-header .tagline {
   font-size: 1.5rem;
   font-weight: 600;
@@ -229,6 +227,16 @@ img {
 .process-exp .card{
 border: 1px solid #9b51e0;
 box-shadow: 0px 0.34066px 12.1099px 2.50549px rgb(155,81,224);
+}
+/* Caraosel services */
+.our-services{
+  background-image: url(./images/robo-peeking.png);
+  background-repeat: no-repeat;
+  background-position: top 10% left;
+  background-size: 20%;
+}
+.our-services .carousel{
+padding: 8rem;
 }
 
 /* Footer */
