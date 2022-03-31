@@ -136,17 +136,17 @@ img {
 /* Why rpa */
 
 .why-rpa {
-  background-color: #182228;
+  background-color: #c8d5fe;
   /* background-image: url(/images/Ellipse\ 5.png); */
   background-image: url(/images/what-we-do-for-you-illustration.png),
     url(/images/dancing-robo-hero-unscreen.gif);
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom left, top 10% left;
+  background-position: bottom left 0rem, top 10% left;
   padding: 1rem;
   padding-bottom: 5em !important;
 }
 .why-rpa h2 {
-  color: rgb(0, 255, 102);
+  color: var(--primary-color);
 }
 .why-rpa-left img {
   width: auto;
@@ -159,9 +159,10 @@ img {
   border-radius: 2rem;
   padding: 1.5rem;
   /* border: 1px solid #7ce6ff; */
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid #9b51e0;
+  box-shadow: 0px 0.34066px 12.1099px 2.50549px rgb(155, 81, 224);
   /* Glass white */
-  background: linear-gradient(
+  /* background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0) 57.29%,
       rgba(255, 255, 255, 0.08) 100%
@@ -175,21 +176,19 @@ img {
       206.57deg,
       rgba(255, 255, 255, 0.125) 16.67%,
       rgba(255, 255, 255, 0.025) 100%
-    );
+    ); */
 }
 .why-rpa-right .card:hover {
   box-shadow: -2px -4px 22px #b5f1ff;
 }
-.why-rpa .card h5 {
+/* .why-rpa .card h5 {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-}
-.why-rpa .card p {
-  color: white;
-}
+} */
+
 .why-rpa-right img {
   width: 5.5rem;
   padding: 0.8rem;
